@@ -13,4 +13,4 @@ job.o: job.cpp job.h
 	$(CC) $(CFLAGS) job.cpp
 
 clean:
-	rm -f *.o driver
+	rm -f *.o *.swp driver
